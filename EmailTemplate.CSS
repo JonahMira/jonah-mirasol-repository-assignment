@@ -1,3 +1,40 @@
-body {
-    
+.top_nav {
+  display:initial;
+}
+.logo {
+  color:rgb(138, 72, 158);
+}
+.logo:hover {
+  color: rgb(5, 202, 228)
+}
+.search_bar {
+  border:transparent;
+  display:flex;
+  position: relative;
+  min-width: 100px;
+}
+.nav-btn {
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color:rgb(147, 78, 150);
+}
+
+.nav-link {
+  color:rgb(8, 136, 66);
+  margin:10px;
+}
+.nav-link:hover {
+  color:rgb(214, 174, 236);
+  border-bottom: 20spx;
+}
+.icon {
+  display: inline-block;
+  justify-content: space-around;
+  border:transparent;
+}
+.card1 {
+  border-left:transparent;
+  border-right:transparent;
 }
